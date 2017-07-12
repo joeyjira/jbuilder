@@ -29,7 +29,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'annotate'
+gem 'pry-rails'
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
@@ -43,4 +44,5 @@ group :development, :test do
   gem 'spring'
 
   gem 'rspec-rails'
+  gem 'binding_of_caller'
 end
